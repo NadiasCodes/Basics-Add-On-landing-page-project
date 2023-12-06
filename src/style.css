@@ -68,3 +68,12 @@ footer {
   border-radius: 10px;
   margin: 0 auto;
 }
+
+.design-intro-picture {
+  border-radius: 10px;
+  transition: all 350ms ease-in-out, filter 2000ms ease-in;
+}
+.design-intro-picture:hover {
+  filter: sepia(40%);
+  transform: scale(1.2);
+}
