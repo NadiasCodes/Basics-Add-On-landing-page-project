@@ -1,0 +1,70 @@
+body {
+  background-color: #d4c7c6;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+button {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 25px 30px;
+  background-color: #d3c1c3;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid transparent;
+  transition: all 200ms ease-in-out;
+  font-size: 15px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+button:hover {
+  background: #d9c9c1;
+  color: white;
+}
+footer {
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.theme-button {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 25px 30px;
+  background-color: #c0aaa4;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid transparent;
+  transition: all 200ms ease-in-out;
+  font-size: 15px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+}
+
+.theme-button:hover {
+  background: #d3c1c3;
+  color: white;
+}
+
+.coder {
+  text-decoration: none;
+  color: #3f3b3e;
+}
+.coder:hover {
+  color: #bba09d;
+}
+.container {
+  max-width: 600px;
+  background-color: #e3ded8;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
