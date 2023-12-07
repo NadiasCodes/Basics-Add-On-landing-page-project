@@ -224,8 +224,21 @@
         }
       }
 
+      function connectWithMe() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your Email?");
+        if (email === null || email === "") {
+          alert("Please enter a valid email adress");
+        } else {
+          alert(`Lovely, ${name}! I am gonna contact you soon 😊`);
+        }
+      }
+
       let themeButton = document.querySelector(".theme-button");
       themeButton.addEventListener("click", changeTheme);
+
+      let subscribeButton = document.querySelector(".subscribe");
+      subscribeButton.addEventListener("click", connectWithMe);
     </script>
   </body>
 </html>
