@@ -39,23 +39,7 @@
     img {
       max-width: 100%;
     }
-    button {
-      display: block;
-      margin: 0 auto 30px auto;
-      padding: 25px 30px;
-      background-color: #d3c1c3;
-      border-radius: 50px;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-      border: 1px solid transparent;
-      transition: all 200ms ease-in-out;
-      font-size: 15px;
-      font-family: "Montserrat Alternates", sans-serif;
-    }
 
-    button:hover {
-      background: #d9c9c1;
-      color: white;
-    }
     footer {
       text-align: center;
       font-family: "Montserrat Alternates", sans-serif;
@@ -185,7 +169,6 @@
           Read On Wikipedia
         </a>
       </p>
-      <button>Learn Graphic Design</button>
     </div>
     <footer>
       Coded with 🤍 by
@@ -195,9 +178,15 @@
     </footer>
 
     <script>
+
+      // body.classList.toggle("pastel");
       function changeTheme() {
         let body = document.querySelector("body");
-        body.classList.add("pastel");
+        if (body.classList.contains("pastel")) {
+          body.classList.remove("pastel");
+        } else {
+          body.classList.add("pastel");
+        }
       }
 
       let themeButton = document.querySelector(".theme-button");
