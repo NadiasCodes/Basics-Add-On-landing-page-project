@@ -224,7 +224,7 @@
         }
       }
 
-      function connectWithMe() {
+      function subscribeButton() {
         let name = prompt("What is your name?");
         let email = prompt("What is your Email?");
         if (email === null || email === "") {
@@ -238,7 +238,7 @@
       themeButton.addEventListener("click", changeTheme);
 
       let subscribeButton = document.querySelector(".subscribe");
-      subscribeButton.addEventListener("click", connectWithMe);
+      subscribeButton.addEventListener("click", subscribeButton);
     </script>
   </body>
 </html>
